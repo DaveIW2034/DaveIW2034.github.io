@@ -1,2 +1,4 @@
+http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/
 http://example.com/2023/11/09/hello-world/
 http://example.com/
+http://example.com/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/
