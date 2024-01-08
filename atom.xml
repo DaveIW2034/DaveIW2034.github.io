@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-08T03:18:53.566Z</updated>
+  <updated>2024-01-08T03:21:30.445Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,30 +18,10 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2024/01/08/20240107/"/>
-    <id>http://example.com/2024/01/08/20240107/</id>
-    <published>2024-01-08T03:18:53.566Z</published>
-    <updated>2024-01-08T03:18:53.566Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="20240107-20240114"><a href="#20240107-20240114" class="headerlink" title="20240107-20240114"></a>20240107-20240114</h5><h6 id="翁恺-java入门与进阶"><a href="#翁恺-java入门与进阶" class="headerlink" title="翁恺 java入门与进阶."></a>翁恺 java入门与进阶.</h6><ol><li>以我的基础应该可以很快看完的，加油!<br>3.1 循环.</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h5 id=&quot;20240107-20240114&quot;&gt;&lt;a href=&quot;#20240107-20240114&quot; class=&quot;headerlink&quot; title=&quot;20240107-20240114&quot;&gt;&lt;/a&gt;20240107-20240114&lt;/h5&gt;&lt;h6 id=&quot;翁恺-ja</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
     <link href="http://example.com/2024/01/08/weekend/"/>
     <id>http://example.com/2024/01/08/weekend/</id>
-    <published>2024-01-08T03:18:53.566Z</published>
-    <updated>2024-01-08T03:18:53.566Z</updated>
+    <published>2024-01-08T03:21:30.440Z</published>
+    <updated>2024-01-08T03:21:30.445Z</updated>
     
     <content type="html"><![CDATA[<h5 id="技术补完计划"><a href="#技术补完计划" class="headerlink" title="技术补完计划."></a>技术补完计划.</h5><ol><li><p>java 基础 -&gt; java 进阶 -&gt; java 高级 -&gt; spring -&gt; spring boot. (*****)</p><p>翁恺 [java 入门与进阶] <a href="https://markdown.com.cn/">https://markdown.com.cn</a></p><p>java 并发编程.<br>java 高级编程.<br>spring ??<br>spring boot ??</p></li><li><p>Docker -&gt; Docker-Compose -&gt; K8s (*****)</p><p> 应该是官网文档结合官网教程.<br> <a href="https://docs.docker.com/">https://docs.docker.com/</a><br> <a href="https://www.docker.com/101-tutorial/">https://www.docker.com/101-tutorial/</a></p><p> 最后 k8s<br> <a href="https://kubernetes.io/zh-cn/docs/tutorials/">https://kubernetes.io/zh-cn/docs/tutorials/</a><br> <a href="https://github.com/guangzhengli">https://github.com/guangzhengli</a></p></li><li><p>消息队列, kafka. (***) </p><p> 我虽然有源码分析的书, 可是我还没拆封啊….</p></li><li><p>javascript -&gt; node.js (*****)<br> 怎么说呢, 不好说啊， 我觉得我有必要试一下.</p></li><li><p>微服务设计…. (*****)<br> 哈哈哈， 真的要看业务啊.</p></li><li><p>感觉自己技术水平怎么说呢… (*)<br> 哈哈哈，还蛮差的啊.</p></li><li><p>leetcode 我觉得我还是要捡起来. (***)<br> 让我看看我有多水.</p></li></ol>]]></content>
     
@@ -54,6 +34,28 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>java 入门与进阶</title>
+    <link href="http://example.com/2023/11/09/20240107/"/>
+    <id>http://example.com/2023/11/09/20240107/</id>
+    <published>2023-11-09T06:52:28.000Z</published>
+    <updated>2024-01-08T03:21:17.733Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="20240107-20240114"><a href="#20240107-20240114" class="headerlink" title="20240107-20240114"></a>20240107-20240114</h5><h6 id="翁恺-java入门与进阶"><a href="#翁恺-java入门与进阶" class="headerlink" title="翁恺 java入门与进阶."></a>翁恺 java入门与进阶.</h6><ol><li>以我的基础应该可以很快看完的，加油!<br>3.1 循环.</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h5 id=&quot;20240107-20240114&quot;&gt;&lt;a href=&quot;#20240107-20240114&quot; class=&quot;headerlink&quot; title=&quot;20240107-20240114&quot;&gt;&lt;/a&gt;20240107-20240114&lt;/h5&gt;&lt;h6 id=&quot;翁恺-ja</summary>
+      
+    
+    
+    
+    
+    <category term="日常记录" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
