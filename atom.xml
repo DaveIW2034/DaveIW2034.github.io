@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-08T03:21:30.445Z</updated>
+  <updated>2024-01-08T03:27:38.701Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2024/01/08/weekend/"/>
-    <id>http://example.com/2024/01/08/weekend/</id>
-    <published>2024-01-08T03:21:30.440Z</published>
-    <updated>2024-01-08T03:21:30.445Z</updated>
+    <link href="http://example.com/2024/01/08/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2024/01/08/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</id>
+    <published>2024-01-08T03:27:38.701Z</published>
+    <updated>2024-01-08T03:27:38.701Z</updated>
     
     <content type="html"><![CDATA[<h5 id="技术补完计划"><a href="#技术补完计划" class="headerlink" title="技术补完计划."></a>技术补完计划.</h5><ol><li><p>java 基础 -&gt; java 进阶 -&gt; java 高级 -&gt; spring -&gt; spring boot. (*****)</p><p>翁恺 [java 入门与进阶] <a href="https://markdown.com.cn/">https://markdown.com.cn</a></p><p>java 并发编程.<br>java 高级编程.<br>spring ??<br>spring boot ??</p></li><li><p>Docker -&gt; Docker-Compose -&gt; K8s (*****)</p><p> 应该是官网文档结合官网教程.<br> <a href="https://docs.docker.com/">https://docs.docker.com/</a><br> <a href="https://www.docker.com/101-tutorial/">https://www.docker.com/101-tutorial/</a></p><p> 最后 k8s<br> <a href="https://kubernetes.io/zh-cn/docs/tutorials/">https://kubernetes.io/zh-cn/docs/tutorials/</a><br> <a href="https://github.com/guangzhengli">https://github.com/guangzhengli</a></p></li><li><p>消息队列, kafka. (***) </p><p> 我虽然有源码分析的书, 可是我还没拆封啊….</p></li><li><p>javascript -&gt; node.js (*****)<br> 怎么说呢, 不好说啊， 我觉得我有必要试一下.</p></li><li><p>微服务设计…. (*****)<br> 哈哈哈， 真的要看业务啊.</p></li><li><p>感觉自己技术水平怎么说呢… (*)<br> 哈哈哈，还蛮差的啊.</p></li><li><p>leetcode 我觉得我还是要捡起来. (***)<br> 让我看看我有多水.</p></li></ol>]]></content>
     
@@ -38,18 +38,18 @@
   </entry>
   
   <entry>
-    <title>java 入门与进阶</title>
-    <link href="http://example.com/2023/11/09/20240107/"/>
-    <id>http://example.com/2023/11/09/20240107/</id>
+    <title>周记</title>
+    <link href="http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
+    <id>http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
     <published>2023-11-09T06:52:28.000Z</published>
-    <updated>2024-01-08T03:21:17.733Z</updated>
+    <updated>2024-01-08T03:23:31.486Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="20240107-20240114"><a href="#20240107-20240114" class="headerlink" title="20240107-20240114"></a>20240107-20240114</h5><h6 id="翁恺-java入门与进阶"><a href="#翁恺-java入门与进阶" class="headerlink" title="翁恺 java入门与进阶."></a>翁恺 java入门与进阶.</h6><ol><li>以我的基础应该可以很快看完的，加油!<br>3.1 循环.</li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="skywalking"><a href="#skywalking" class="headerlink" title="skywalking"></a>skywalking</h5><h5 id="zipkin-jeager-skywalking-sentry"><a href="#zipkin-jeager-skywalking-sentry" class="headerlink" title="zipkin jeager skywalking sentry"></a>zipkin jeager skywalking sentry</h5><p>搭建了一下, zipkin jeager 看着有点简化.<br>综合下来还是skywalking比较合适.</p><h5 id="比较不错的网站"><a href="#比较不错的网站" class="headerlink" title="比较不错的网站"></a>比较不错的网站</h5><p><a href="https://www.baeldung.com/">https://www.baeldung.com/</a></p><h5 id="欢声笑语wow"><a href="#欢声笑语wow" class="headerlink" title="欢声笑语wow"></a>欢声笑语wow</h5><h5 id="Faker-库是个什么库呢"><a href="#Faker-库是个什么库呢" class="headerlink" title="Faker 库是个什么库呢."></a>Faker 库是个什么库呢.</h5><ol><li>有点意思, 可以的.</li><li>试一试neovim helix</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h5 id=&quot;20240107-20240114&quot;&gt;&lt;a href=&quot;#20240107-20240114&quot; class=&quot;headerlink&quot; title=&quot;20240107-20240114&quot;&gt;&lt;/a&gt;20240107-20240114&lt;/h5&gt;&lt;h6 id=&quot;翁恺-ja</summary>
+    <summary type="html">&lt;h5 id=&quot;skywalking&quot;&gt;&lt;a href=&quot;#skywalking&quot; class=&quot;headerlink&quot; title=&quot;skywalking&quot;&gt;&lt;/a&gt;skywalking&lt;/h5&gt;&lt;h5 id=&quot;zipkin-jeager-skywalking-sentry&quot;&gt;</summary>
       
     
     
@@ -60,18 +60,18 @@
   </entry>
   
   <entry>
-    <title>周记</title>
-    <link href="http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
-    <id>http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
+    <title>java 入门与进阶</title>
+    <link href="http://example.com/2023/11/09/20240107/"/>
+    <id>http://example.com/2023/11/09/20240107/</id>
     <published>2023-11-09T06:52:28.000Z</published>
-    <updated>2023-11-29T10:04:09.086Z</updated>
+    <updated>2024-01-08T03:23:48.346Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="skywalking"><a href="#skywalking" class="headerlink" title="skywalking"></a>skywalking</h5><h5 id="zipkin-jeager-skywalking-sentry"><a href="#zipkin-jeager-skywalking-sentry" class="headerlink" title="zipkin jeager skywalking sentry"></a>zipkin jeager skywalking sentry</h5><p>搭建了一下, zipkin jeager 看着有点简化.<br>综合下来还是skywalking比较合适.</p><h5 id="比较不错的网站"><a href="#比较不错的网站" class="headerlink" title="比较不错的网站"></a>比较不错的网站</h5><p><a href="https://www.baeldung.com/">https://www.baeldung.com/</a></p><h5 id="欢声笑语wow"><a href="#欢声笑语wow" class="headerlink" title="欢声笑语wow"></a>欢声笑语wow</h5><h5 id="Faker-库是个什么库呢"><a href="#Faker-库是个什么库呢" class="headerlink" title="Faker 库是个什么库呢."></a>Faker 库是个什么库呢.</h5><ol><li>有点意思, 可以的.</li><li>试一试neovim helix</li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="20240107-20240114"><a href="#20240107-20240114" class="headerlink" title="20240107-20240114"></a>20240107-20240114</h5><h6 id="翁恺-java入门与进阶"><a href="#翁恺-java入门与进阶" class="headerlink" title="翁恺 java入门与进阶."></a>翁恺 java入门与进阶.</h6><ol><li>以我的基础应该可以很快看完的，加油!<br>3.1 循环.</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h5 id=&quot;skywalking&quot;&gt;&lt;a href=&quot;#skywalking&quot; class=&quot;headerlink&quot; title=&quot;skywalking&quot;&gt;&lt;/a&gt;skywalking&lt;/h5&gt;&lt;h5 id=&quot;zipkin-jeager-skywalking-sentry&quot;&gt;</summary>
+    <summary type="html">&lt;h5 id=&quot;20240107-20240114&quot;&gt;&lt;a href=&quot;#20240107-20240114&quot; class=&quot;headerlink&quot; title=&quot;20240107-20240114&quot;&gt;&lt;/a&gt;20240107-20240114&lt;/h5&gt;&lt;h6 id=&quot;翁恺-ja</summary>
       
     
     
