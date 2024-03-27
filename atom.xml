@@ -6,7 +6,7 @@
   <link href="https://daveiw2034.github.io/atom.xml" rel="self"/>
   
   <link href="https://daveiw2034.github.io/"/>
-  <updated>2024-03-27T06:10:30.997Z</updated>
+  <updated>2024-03-27T06:10:33.594Z</updated>
   <id>https://daveiw2034.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周记</title>
+    <link href="https://daveiw2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
+    <id>https://daveiw2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
+    <published>2023-11-09T06:52:28.000Z</published>
+    <updated>2024-03-27T06:10:33.594Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="zipkin-jeager-skywalking-sentry"><a href="#zipkin-jeager-skywalking-sentry" class="headerlink" title="zipkin jeager skywalking sentry"></a>zipkin jeager skywalking sentry</h5><p>搭建了一下, zipkin jeager 看着有点简化.<br>综合下来还是skywalking比较合适.</p><p>选定skywalking</p><h5 id="比较不错的网站"><a href="#比较不错的网站" class="headerlink" title="比较不错的网站"></a>比较不错的网站</h5><p><a href="https://www.baeldung.com/">https://www.baeldung.com/</a></p><h5 id="Faker-库是个什么库呢"><a href="#Faker-库是个什么库呢" class="headerlink" title="Faker 库是个什么库呢."></a>Faker 库是个什么库呢.</h5><ol><li>有点意思, 可以的.</li><li>试一试neovim helix (还是ide好用…哈哈哈)</li></ol><h5 id="SqlAlchemy-sharding"><a href="#SqlAlchemy-sharding" class="headerlink" title="SqlAlchemy sharding"></a>SqlAlchemy sharding</h5><ol><li>官网<br>说明: <a href="https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard">https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard</a><br>例子: <a href="https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html">https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h5 id=&quot;zipkin-jeager-skywalking-sentry&quot;&gt;&lt;a href=&quot;#zipkin-jeager-skywalking-sentry&quot; class=&quot;headerlink&quot; title=&quot;zipkin jeager skywalking sentr</summary>
+      
+    
+    
+    
+    
+    <category term="日常记录" scheme="https://daveiw2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>技术规划</title>
@@ -35,28 +57,6 @@
     
     
     <category term="技术规划" scheme="https://daveiw2034.github.io/categories/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
-    
-    
-    <category term="日常记录" scheme="https://daveiw2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周记</title>
-    <link href="https://daveiw2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
-    <id>https://daveiw2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
-    <published>2023-11-09T06:52:28.000Z</published>
-    <updated>2024-03-27T06:10:33.594Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="zipkin-jeager-skywalking-sentry"><a href="#zipkin-jeager-skywalking-sentry" class="headerlink" title="zipkin jeager skywalking sentry"></a>zipkin jeager skywalking sentry</h5><p>搭建了一下, zipkin jeager 看着有点简化.<br>综合下来还是skywalking比较合适.</p><p>选定skywalking</p><h5 id="比较不错的网站"><a href="#比较不错的网站" class="headerlink" title="比较不错的网站"></a>比较不错的网站</h5><p><a href="https://www.baeldung.com/">https://www.baeldung.com/</a></p><h5 id="Faker-库是个什么库呢"><a href="#Faker-库是个什么库呢" class="headerlink" title="Faker 库是个什么库呢."></a>Faker 库是个什么库呢.</h5><ol><li>有点意思, 可以的.</li><li>试一试neovim helix (还是ide好用…哈哈哈)</li></ol><h5 id="SqlAlchemy-sharding"><a href="#SqlAlchemy-sharding" class="headerlink" title="SqlAlchemy sharding"></a>SqlAlchemy sharding</h5><ol><li>官网<br>说明: <a href="https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard">https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard</a><br>例子: <a href="https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html">https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html</a></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h5 id=&quot;zipkin-jeager-skywalking-sentry&quot;&gt;&lt;a href=&quot;#zipkin-jeager-skywalking-sentry&quot; class=&quot;headerlink&quot; title=&quot;zipkin jeager skywalking sentr</summary>
-      
-    
-    
     
     
     <category term="日常记录" scheme="https://daveiw2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
