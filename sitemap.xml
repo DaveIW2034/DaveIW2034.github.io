@@ -2,36 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/</loc>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/categories/index.html</loc>
     
-    <lastmod>2024-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</loc>
-    
-    <lastmod>2024-03-25</lastmod>
+    <lastmod>2024-03-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/404/index.html</loc>
     
-    <lastmod>2024-03-25</lastmod>
+    <lastmod>2024-03-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/about/index.html</loc>
     
-    <lastmod>2024-03-25</lastmod>
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</loc>
+    
+    <lastmod>2024-03-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,20 +57,27 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2024-03-25</lastmod>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-03-25</lastmod>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://github.com/DaveIW2034/DaveIW2034.github.io/categories/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</loc>
+    <lastmod>2024-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
