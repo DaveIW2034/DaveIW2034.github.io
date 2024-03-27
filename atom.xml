@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   <subtitle>技术之路</subtitle>
-  <link href="https://github.com/DaveIW2034/DaveIW2034.github.io/atom.xml" rel="self"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
   
-  <link href="https://github.com/DaveIW2034/DaveIW2034.github.io/"/>
+  <link href="http://example.com/"/>
   <updated>2024-03-27T06:10:33.594Z</updated>
-  <id>https://github.com/DaveIW2034/DaveIW2034.github.io/</id>
+  <id>http://example.com/</id>
   
   <author>
     <name>Dave</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>周记</title>
-    <link href="https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
-    <id>https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
+    <link href="http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/"/>
+    <id>http://example.com/2023/11/09/%E5%91%A8%E8%AE%B0/</id>
     <published>2023-11-09T06:52:28.000Z</published>
     <updated>2024-03-27T06:10:33.594Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="日常记录" scheme="https://github.com/DaveIW2034/DaveIW2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    <category term="日常记录" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>技术规划</title>
-    <link href="https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
-    <id>https://github.com/DaveIW2034/DaveIW2034.github.io/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</id>
+    <link href="http://example.com/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</id>
     <published>2023-11-09T06:52:28.000Z</published>
     <updated>2024-03-27T06:10:30.997Z</updated>
     
@@ -56,10 +56,10 @@
     
     
     
-    <category term="技术规划" scheme="https://github.com/DaveIW2034/DaveIW2034.github.io/categories/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
+    <category term="技术规划" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
     
     
-    <category term="日常记录" scheme="https://github.com/DaveIW2034/DaveIW2034.github.io/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
+    <category term="日常记录" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
