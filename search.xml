@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>常用linux命令</title>
+    <url>/2024/03/28/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h5 id="vim-vs-more-vs-less"><a href="#vim-vs-more-vs-less" class="headerlink" title="vim vs more vs less"></a>vim vs more vs less</h5>]]></content>
+      <categories>
+        <category>常用linux命令</category>
+      </categories>
+      <tags>
+        <tag>常用linux命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>技术规划</title>
     <url>/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</url>
     <content><![CDATA[<h5 id="技术补完计划"><a href="#技术补完计划" class="headerlink" title="技术补完计划."></a>技术补完计划.</h5><ol>
@@ -37,23 +48,32 @@
 <h5 id="SqlAlchemy-sharding"><a href="#SqlAlchemy-sharding" class="headerlink" title="SqlAlchemy sharding"></a>SqlAlchemy sharding</h5><ol>
 <li>官网<br>说明: <a href="https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard">https://docs.sqlalchemy.org/en/20/orm/extensions/horizontal_shard.html#sqlalchemy.ext.horizontal_shard.ShardedQuery.set_shard</a><br>例子: <a href="https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html">https://docs.sqlalchemy.org/en/20/_modules/examples/sharding/separate_tables.html</a></li>
 </ol>
+<h5 id="flask"><a href="#flask" class="headerlink" title="flask"></a>flask</h5><blockquote>
+<p>flask reinforce 相关知识的强化.</p>
+</blockquote>
 ]]></content>
       <tags>
-        <tag>日常记录</tag>
+        <tag>周记</tag>
       </tags>
   </entry>
   <entry>
-    <title>常用linux命令</title>
-    <url>/2024/03/28/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h5 id="vim-vs-more-vs-less"><a href="#vim-vs-more-vs-less" class="headerlink" title="vim vs more vs less"></a>vim vs more vs less</h5><blockquote>
-<p>有关大文件打开的, 方式比较.</p>
+    <title></title>
+    <url>/2024/04/01/python/faker/</url>
+    <content><![CDATA[<h4 id="faker库"><a href="#faker库" class="headerlink" title="faker库"></a>faker库</h4><h5 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h5><blockquote>
+<p><a href="https://github.com/joke2k/faker">https://github.com/joke2k/faker</a></p>
 </blockquote>
+<p>工作中做单元测试, 用到了这个库, 因为只是一个生成fake数据的库, 所以我只做一个简单的使用的记录吧.</p>
+<h5 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h5><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">from</span> faker <span class="keyword">import</span> Faker</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line"></span><br><span class="line">    fake = Faker(<span class="string">&#x27;zn_CN&#x27;</span>)  <span class="comment"># 因为是中文所以, 选择zh_CN</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(fake.name())</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">孙杰</span><br></pre></td></tr></table></figure>
+
+<h5 id="可用示例"><a href="#可用示例" class="headerlink" title="可用示例"></a>可用示例</h5><p>如何查看faker的属性, 根据源码路径查看即可. provider-&gt;locale-&gt;属性</p>
+<p><img src="https://img2.imgtp.com/2024/03/30/HA0heEMO.png" alt="provider"><br><br><br><img src="https://img2.imgtp.com/2024/03/30/eiN2uBtX.png" alt="locale"><br><br><br><img src="https://img2.imgtp.com/2024/03/30/6S6SOTma.png" alt="属性"></p>
 ]]></content>
-      <categories>
-        <category>技术规划</category>
-      </categories>
-      <tags>
-        <tag>常用linux命令</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/03/29/python/flask/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

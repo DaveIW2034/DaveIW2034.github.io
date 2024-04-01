@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://DaveIW2034.github.io/2024/03/28/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
   </url>
   <url>
-    <loc>https://DaveIW2034.github.io/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <loc>https://DaveIW2034.github.io/2024/04/01/python/faker/</loc>
+    <lastmod>2024-04-01</lastmod>
   </url>
   <url>
     <loc>https://DaveIW2034.github.io/2023/11/09/%E5%91%A8%E8%AE%B0/%E5%91%A8%E8%AE%B0/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-03-29</lastmod>
+  </url>
+  <url>
+    <loc>https://DaveIW2034.github.io/2023/11/09/%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</loc>
+    <lastmod>2024-03-29</lastmod>
+  </url>
+  <url>
+    <loc>https://DaveIW2034.github.io/2024/03/29/python/flask/</loc>
+    <lastmod>2024-03-29</lastmod>
   </url>
 </urlset> 
