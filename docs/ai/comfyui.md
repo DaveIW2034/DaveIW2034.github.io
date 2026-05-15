@@ -13,3 +13,4 @@
 - SDXL 基础出图
 - LoRA 接入
 - ControlNet 接入
+![workflow](./workflow.png)

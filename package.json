@@ -18,5 +18,8 @@
     "vitepress": "^1.6.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vitepress-plugin-pagefind": "^0.4.20"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0"
   }
 }
