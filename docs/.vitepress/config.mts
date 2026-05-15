@@ -6,7 +6,7 @@ export default defineConfig({
   title: "John' Blog",
   description: "技术博客/AI实验室/后端工程",
 
-  base: '/blog/',
+  base: '/',
 
   themeConfig: {
 
