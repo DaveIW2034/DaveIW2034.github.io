@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 
@@ -7,6 +8,12 @@ export default defineConfig({
   description: "技术博客/AI实验室/后端工程",
 
   base: '/',
+
+  vite: {
+    plugins: [
+      pagefindPlugin()
+    ]
+  },
 
   themeConfig: {
 
@@ -43,9 +50,13 @@ export default defineConfig({
       }
     ],
 
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DaveIW2034' }
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    },
+    
   }
 })

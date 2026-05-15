@@ -101,6 +101,8 @@ npm install
 # 6. 本地启动博客
 
 ```bash
+npm run docs:build
+npm run docs:preview
 npm run docs:dev
 ```
 
