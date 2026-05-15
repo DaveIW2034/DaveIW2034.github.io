@@ -6,3 +6,7 @@
   z-index: 10000;
 }
 
+img {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
