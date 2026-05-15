@@ -179,4 +179,21 @@ docs/.vitepress/cache/
 
 这些目录应该被 `.gitignore` 忽略。
 
+# 11. giscus 配置
+<script src="https://giscus.app/client.js"
+        data-repo="DaveIW2034/DaveIW2034.github.io"
+        data-repo-id="R_kgDOSeVGnQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOSeVGnc4C9Hj-"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ---
