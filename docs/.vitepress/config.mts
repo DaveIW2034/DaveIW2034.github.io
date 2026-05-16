@@ -39,7 +39,8 @@ export default defineConfig({
       {
         text: '后端工程',
         items: [
-          { text: 'Redis 实战', link: '/backend/redis'}
+          { text: 'Redis 实战', link: '/backend/redis'},
+          { text: 'Python Logging 实战', link: '/backend/logging'},
         ]
       },
       {
