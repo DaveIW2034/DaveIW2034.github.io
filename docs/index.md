@@ -13,6 +13,12 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: 后端工程
+      link: /backend/redis
+    - theme: alt
+      text: AI实验室
+      link: /ai/comfyui
 
 features:
   - title: Feature A
