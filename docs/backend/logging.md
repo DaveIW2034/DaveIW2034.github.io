@@ -209,6 +209,8 @@ class SafeTimedRotatingFileHandler(TimedRotatingFileHandler):
 
 ## 思考
 **分布式日志实现**
+
+**通过docker部署, 可以实现日志统一收集.**
 ```sh
 Python logging → stdout
 Promtail → Loki
