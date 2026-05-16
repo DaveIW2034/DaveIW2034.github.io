@@ -40,7 +40,8 @@ export default defineConfig({
         text: '后端工程',
         items: [
           { text: 'Redis 实战', link: '/backend/redis'},
-          { text: 'Python Logging 实战', link: '/backend/logging'},
+          { text: 'Python Logging', link: '/backend/logging'},
+          { text: 'FastAPI TraceID', link: '/backend/middleware'},
         ]
       },
       {
