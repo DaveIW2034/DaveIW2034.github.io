@@ -216,3 +216,4 @@ Python logging → stdout
 Promtail → Loki
 Grafana 查询
 ```
+![grafana](./loki.WebP)
