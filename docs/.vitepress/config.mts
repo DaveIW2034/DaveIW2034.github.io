@@ -42,7 +42,7 @@ export default defineConfig({
           { text: 'Redis 实战', link: '/backend/redis'},
           { text: 'Python Logging', link: '/backend/logging'},
           { text: 'FastAPI TraceID', link: '/backend/middleware'},
-          { text: 'PeeWee Postgresql 探活', link: '/backend/keep-alive'},
+          { text: 'PeeWee Postgresql 探活', link: '/backend/keep-live'},
           { text: '服务注册与发现', link: '/backend/registry'}
         ]
       },
