@@ -43,6 +43,8 @@ export default defineConfig({
           { text: 'Python Logging', link: '/backend/logging'},
           { text: 'FastAPI TraceID', link: '/backend/middleware'},
           { text: 'PeeWee Postgresql 探活', link: '/backend/keep-alive'},
+          { text: '服务注册与发现', link: '/backend/registry'},
+
         ]
       },
       {
