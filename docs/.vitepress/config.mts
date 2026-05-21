@@ -49,7 +49,9 @@ export default defineConfig({
       {
           text: 'AI 实验室',
           items: [
-            { text: 'ComfyUI 实践', link: '/ai/comfyui'}
+            { text: 'ComfyUI 实践', link: '/ai/comfyui'},
+            { text: 'Codex 实用命令', link: '/ai/codex'}
+
           ]
       }
     ],
