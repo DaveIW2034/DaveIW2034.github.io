@@ -59,16 +59,21 @@ codex "生成接口文档"
 /compact  # 压缩上下文
 
 hooks
-git diff 生产 commit message.
-review 当前修改.
+在特定时机自动触发的代码机制。Git Hooks
 结合项目定制.
 
 skill
+是 AI 完成某类工作的“经验与流程”。
 结合项目定制.
 
 mcp
+是 AI 使用工具的标准协议。
 结合项目配置.
+
+Plugin
+给系统增加新功能的扩展模块。
 
 AGENTS.md 
 结合项目总结.
+给 AI Agent 写的“项目说明书”。
 ```
