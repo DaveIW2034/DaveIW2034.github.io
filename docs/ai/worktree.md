@@ -92,3 +92,30 @@ mac 确实是AI浪潮下的一等公民
 ```sh
 codex --worktree auth
 ```
+
+
+## 速查流程
+
+```sh
+# 查看所有 worktree
+git worktree list
+
+# 创建新 worktree + 新分支
+git worktree add ../auth -b feature/auth
+
+# 使用已有分支创建 worktree
+git worktree add ../auth feature/auth
+
+# 删除 worktree
+git worktree remove ../auth
+
+# 清理失效记录
+git worktree prune
+
+# 查看分支对应关系
+git branch -vv
+
+# 合并回主分支
+git checkout main
+git merge feature/auth
+```
