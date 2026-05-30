@@ -44,7 +44,7 @@ export default defineConfig({
           { text: 'FastAPI TraceID', link: '/backend/middleware'},
           { text: 'PeeWee Postgresql 探活', link: '/backend/keep-live'},
           { text: '服务注册与发现', link: '/backend/registry'},
-          { text: 'RabbitMQ aio-pika实践', link: '/backend/aio-pika'},
+          { text: 'RabbitMQ AIO实践', link: '/backend/aio-pika'},
 
         ]
       },
