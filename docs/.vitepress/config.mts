@@ -45,6 +45,7 @@ export default defineConfig({
           { text: 'PeeWee Postgresql 探活', link: '/backend/keep-live'},
           { text: '服务注册与发现', link: '/backend/registry'},
           { text: 'RabbitMQ AIO实践', link: '/backend/aio-pika'},
+          { text: 'InfluxDB 快速入门与核心概念', link: '/backend/influx-db-py'},
 
         ]
       },
