@@ -46,7 +46,7 @@ export default defineConfig({
           { text: '服务注册与发现', link: '/backend/registry'},
           { text: 'RabbitMQ AIO实践', link: '/backend/aio-pika'},
           { text: 'InfluxDB 快速入门与核心概念', link: '/backend/influx-db-py'},
-
+          { text: 'WorkLife 工作', link: '/backend/work-life'},
         ]
       },
       {
