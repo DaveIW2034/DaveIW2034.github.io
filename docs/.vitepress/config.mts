@@ -47,7 +47,9 @@ export default defineConfig({
           { text: 'RabbitMQ AIO实践', link: '/backend/aio-pika'},
           { text: 'InfluxDB 快速入门与核心概念', link: '/backend/influx-db-py'},
           { text: 'WorkLife 工作', link: '/backend/work-life'},
-          { text: 'Pg_parman 工作', link: '/backend/pg_parman'}
+          { text: 'Pg_parman 工作', link: '/backend/pg_parman'},
+          { text: 'Nvim 配置', link: '/backend/nvim-config'}
+          
 
         ]
       },
