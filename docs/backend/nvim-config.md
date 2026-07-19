@@ -578,14 +578,27 @@ require("lazy").setup({
     -- 主题
     --------------------------------------------------
     {
-        "folke/tokyonight.nvim",
+        "catppuccin/nvim",
+        name = "catppuccin",
         lazy = false,
         priority = 1000,
+
         config = function()
-            vim.cmd.colorscheme("tokyonight-night")
+            require("catppuccin").setup({
+                flavour = "frappe", -- latte, frappe, macchiato, mocha
+
+                integrations = {
+                    blink_cmp = true,
+                    gitsigns = true,
+                    telescope = true,
+                    treesitter = true,
+                    nvimtree = true,
+                },
+            })
+
+            vim.cmd.colorscheme("catppuccin")
         end,
     }
-
 })
 
 --------------------------------------------------
