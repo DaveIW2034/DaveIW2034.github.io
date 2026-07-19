@@ -484,6 +484,97 @@ require("lazy").setup({
     },
 
     --------------------------------------------------
+    -- 当前文件类、函数结构树
+    --------------------------------------------------
+    {
+        "stevearc/aerial.nvim",
+
+        dependencies = {
+            "nvim-treesitter/nvim-treesitter",
+            "nvim-tree/nvim-web-devicons",
+        },
+
+        opts = {
+            -- 优先通过 Tree-sitter 获取结构，失败时使用 LSP
+            backends = {
+                "treesitter",
+                "markdown",
+                "lsp"
+            },
+
+            layout = {
+                -- 固定显示在右侧
+                default_direction = "right",
+
+                -- 宽度范围
+                min_width = 30,
+                max_width = 45,
+
+                -- 尽量放在编辑器边缘
+                placement = "edge",
+            },
+
+            -- 显示树形引导线
+            show_guides = true,
+
+            -- 显示图标
+            icons = {},
+
+            -- 自动附加到支持的文件
+            attach_mode = "window",
+
+            -- Aerial 窗口关闭后不退出 Neovim
+            close_automatic_events = {},
+
+            -- 结构树中显示这些符号
+            filter_kind = {
+                "Class",
+                "Constructor",
+                "Enum",
+                "Function",
+                "Interface",
+                "Method",
+                "Module",
+                "Namespace",
+                "Property",
+                "Struct",
+                "Trait",
+            },
+
+            -- 在结构树中按回车跳转后，焦点返回代码窗口
+            post_jump_cmd = "normal! zz",
+        },
+
+        keys = {
+            {
+                "<leader>a",
+                "<cmd>AerialToggle! right<CR>",
+                desc = "打开或关闭代码结构树",
+            },
+            {
+                "<leader>ao",
+                "<cmd>AerialOpen right<CR>",
+                desc = "打开代码结构树",
+            },
+            {
+                "<leader>ac",
+                "<cmd>AerialClose<CR>",
+                desc = "关闭代码结构树",
+            },
+            {
+                "[s",
+                "<cmd>AerialPrev<CR>",
+                desc = "上一个代码结构",
+            },
+            {
+                "]s",
+                "<cmd>AerialNext<CR>",
+                desc = "下一个代码结构",
+            },
+        },
+    },
+
+    --------------------------------------------------
     -- 文件搜索与全文搜索
     --------------------------------------------------
     {
@@ -499,7 +590,6 @@ require("lazy").setup({
     {
         "neovim/nvim-lspconfig",
     },
-
     --------------------------------------------------
     -- 自动补全
     --------------------------------------------------
@@ -573,7 +663,6 @@ require("lazy").setup({
             })
         end,
     },
-
     --------------------------------------------------
     -- 主题
     --------------------------------------------------
@@ -585,7 +674,7 @@ require("lazy").setup({
 
         config = function()
             require("catppuccin").setup({
-                flavour = "frappe", -- latte, frappe, macchiato, mocha
+                flavour = "latte", -- latte, frappe, macchiato, mocha
 
                 integrations = {
                     blink_cmp = true,
@@ -593,13 +682,32 @@ require("lazy").setup({
                     telescope = true,
                     treesitter = true,
                     nvimtree = true,
+                    aerial = true,
                 },
             })
 
             vim.cmd.colorscheme("catppuccin")
         end,
-    }
+    },
+    --------------------------------------------------
+    -- Git 状态栏
+    --------------------------------------------------
+    {
+        "lewis6991/gitsigns.nvim",
+        opts = {},
+    },
+
 })
+
+--------------------------------------------------
+-- 自动折叠
+--------------------------------------------------
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+
+vim.opt.foldenable = true
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 99
 
 --------------------------------------------------
 -- Telescope 快捷键
@@ -720,4 +828,29 @@ vim.api.nvim_create_autocmd("LspAttach", {
         )
     end,
 })
+
+--------------------------------------------------
+-- gitsigns 快捷键
+--------------------------------------------------
+vim.keymap.set(
+    "n",
+    "]h",
+    "<cmd>Gitsigns next_hunk<CR>",
+    { desc = "下一个 Git 修改" }
+)
+
+vim.keymap.set(
+    "n",
+    "[h",
+    "<cmd>Gitsigns prev_hunk<CR>",
+    { desc = "上一个 Git 修改" }
+)
+
+--------------------------------------------------
+-- Ctrl + 方向键 快捷键
+--------------------------------------------------
+vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move Left Window" })
+vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move Down Window" })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move Up Window" })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move Right Window" })
 ```
