@@ -594,33 +594,77 @@ require("lazy").setup({
     -- 自动补全
     --------------------------------------------------
     {
-        "saghen/blink.cmp",
-        version = "*",
+    "saghen/blink.cmp",
+    version = "*",
 
-        opts = {
-            keymap = {
-                preset = "super-tab",
-            },
+    opts = {
+        keymap = {
+            preset = "default",
 
-            completion = {
-                documentation = {
-                    auto_show = true,
-                },
-            },
+            ----------------------------------------------------------------
+            -- 补全菜单
+            ----------------------------------------------------------------
 
-            sources = {
-                default = {
-                    "lsp",
-                    "path",
-                    "snippets",
-                    "buffer",
-                },
+            -- 手动触发补全
+            ["<C-Space>"] = { "show", "show_documentation", "hide_documentation" },
+
+            ----------------------------------------------------------------
+            -- 候选项选择
+            ----------------------------------------------------------------
+
+            -- 下一个
+            ["<C-n>"] = { "select_next", "fallback" },
+
+            -- 上一个
+            ["<C-p>"] = { "select_prev", "fallback" },
+
+            ----------------------------------------------------------------
+            -- 文档滚动
+            ----------------------------------------------------------------
+
+            ["<C-d>"] = { "scroll_documentation_down", "fallback" },
+            ["<C-u>"] = { "scroll_documentation_up", "fallback" },
+
+            ----------------------------------------------------------------
+            -- 确认补全
+            ----------------------------------------------------------------
+
+            ["<C-y>"] = { "accept", "fallback" },
+
+            ----------------------------------------------------------------
+            -- 关闭补全
+            ----------------------------------------------------------------
+
+            ["<C-e>"] = { "hide", "fallback" },
+
+            ----------------------------------------------------------------
+            -- Snippet
+            ----------------------------------------------------------------
+
+            ["<Tab>"] = { "snippet_forward", "fallback" },
+            ["<S-Tab>"] = { "snippet_backward", "fallback" },
+        },
+
+        completion = {
+            documentation = {
+                auto_show = true,
+                auto_show_delay_ms = 200,
             },
         },
 
-        opts_extend = {
-            "sources.default",
+        sources = {
+            default = {
+                "lsp",
+                "path",
+                "snippets",
+                "buffer",
+            },
         },
+    },
+
+    opts_extend = {
+        "sources.default",
+    },
     },
     --------------------------------------------------
     -- 自动括号
@@ -636,30 +680,29 @@ require("lazy").setup({
     {
         "nvim-treesitter/nvim-treesitter",
 
-        -- Neovim 0.11 使用兼容分支
-        branch = "master",
+        branch = "main",
 
         build = ":TSUpdate",
 
+        lazy = false,
+
         config = function()
-            require("nvim-treesitter.configs").setup({
-                ensure_installed = {
-                    "python",
-                    "lua",
-                    "bash",
-                    "json",
-                    "yaml",
-                    "toml",
-                    "markdown",
-                },
+            local treesitter = require("nvim-treesitter")
 
-                highlight = {
-                    enable = true,
-                },
+            treesitter.setup({})
 
-                indent = {
-                    enable = true,
-                },
+            treesitter.install({
+                "python",
+                "lua",
+                "bash",
+                "json",
+                "yaml",
+                "toml",
+                "markdown",
+                "markdown_inline",
+                "vim",
+                "vimdoc",
+                "query",
             })
         end,
     },
@@ -696,7 +739,52 @@ require("lazy").setup({
         "lewis6991/gitsigns.nvim",
         opts = {},
     },
+    --------------------------------------------------
+    -- 代码格式化
+    --------------------------------------------------
+    {
+        "stevearc/conform.nvim",
 
+        event = { "BufWritePre" },
+
+        opts = {
+            formatters_by_ft = {
+
+                lua = { "stylua" },
+
+                python = { "ruff_format" },
+
+                sh = { "shfmt" },
+
+                bash = { "shfmt" },
+
+                json = { "prettier" },
+
+                yaml = { "prettier" },
+
+                markdown = { "prettier" },
+
+                toml = { "taplo" },
+            },
+
+            format_on_save = {
+                timeout_ms = 500,
+                lsp_fallback = true,
+            },
+        },
+    },
+    --------------------------------------------------
+    -- Trouble
+    --------------------------------------------------
+    {
+        "folke/trouble.nvim",
+
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+
+        opts = {},
+    },
 })
 
 --------------------------------------------------
@@ -844,6 +932,84 @@ vim.keymap.set(
     "[h",
     "<cmd>Gitsigns prev_hunk<CR>",
     { desc = "上一个 Git 修改" }
+)
+
+--------------------------------------------------
+-- Diagnostic Sign 配置图标
+--------------------------------------------------
+
+--------------------------------------------------
+-- Diagnostic
+--------------------------------------------------
+vim.diagnostic.config({
+
+    virtual_text = false,
+
+    -- 左侧图标
+    signs = {
+        text = {
+            [vim.diagnostic.severity.ERROR] = " ",
+            [vim.diagnostic.severity.WARN]  = " ",
+            [vim.diagnostic.severity.INFO]  = " ",
+            [vim.diagnostic.severity.HINT]  = "󰌵 ",
+        },
+    },
+
+    underline = true,
+
+    severity_sort = true,
+
+    update_in_insert = false,
+
+    float = {
+        border = "rounded",
+        source = "always",
+    },
+})
+
+--------------------------------------------------
+-- Trouble 快捷键
+--------------------------------------------------
+vim.keymap.set(
+    "n",
+    "<leader>xx",
+    "<cmd>Trouble diagnostics toggle<CR>",
+    { desc = "Workspace Diagnostics" }
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>xX",
+    "<cmd>Trouble diagnostics toggle filter.buf=0<CR>",
+    { desc = "Buffer Diagnostics" }
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>cs",
+    "<cmd>Trouble symbols toggle focus=false<CR>",
+    { desc = "Document Symbols" }
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>cl",
+    "<cmd>Trouble lsp toggle focus=false win.position=right<CR>",
+    { desc = "LSP Definitions / References" }
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>xL",
+    "<cmd>Trouble loclist toggle<CR>",
+    { desc = "Location List" }
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>xQ",
+    "<cmd>Trouble qflist toggle<CR>",
+    { desc = "Quickfix List" }
 )
 
 --------------------------------------------------
